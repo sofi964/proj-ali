@@ -87,6 +87,26 @@ body {
   color: #000000;
 }
 
+/*big*/
+/*medium*/
+/*small*/
+@media (max-width: 768px) {
+  .nav-bar .container .logo {
+    position: relative;
+    right: 450px;
+  }
+  .nav-bar .container .parent {
+    font-size: 20px;
+    gap: 10px;
+    position: relative;
+    left: 30px;
+  }
+  .nav-bar .container .parent .list {
+    font-size: 20px;
+    gap: 10px;
+    padding: none;
+  }
+}
 /* end of navbar*/
 /*start of landing page*/
 .landing-page .container {
@@ -140,7 +160,7 @@ body {
 /*start of services*/
 .services .container {
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   padding: 0 0;
 }
 .services .container .services-txt {
@@ -161,7 +181,7 @@ body {
 }
 .services .container .serv {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .services .container .serv .parent2 {
@@ -337,4 +357,126 @@ body {
   color: #10cab7;
 }
 
-/*end of footer*//*# sourceMappingURL=style.css.map */
+/*end of footer*/
+/*big*/
+/*medium*/
+@media (max-width: 992px) {
+  .services .container .services-txt {
+    left: 30px;
+  }
+  .services .container .services-txt h2 {
+    position: relative;
+    top: 170px;
+  }
+  .services .container .services-txt p {
+    top: 140px;
+  }
+  .services .container .serv {
+    margin: 0 auto;
+  }
+  .services .container .serv .parent2 {
+    display: flex;
+    position: relative;
+    top: 250px;
+  }
+}
+/*small*/
+@media (max-width: 768px) {
+  .section .container .prods {
+    height: 132vh;
+    display: grid;
+  }
+  .section .container .prods .prod i {
+    font-size: 30px;
+  }
+  .section .container .prods .prod h3 {
+    font-size: 20px;
+  }
+  .section .container .prods .prod p {
+    font-size: 15px;
+  }
+  body {
+    height: 700vh;
+  }
+  .footer .container {
+    position: relative;
+    top: 200rem;
+  }
+  .footer .container .p p {
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+  }
+  .contact .container {
+    position: relative;
+    top: 200rem;
+  }
+  .contact .container .em {
+    position: relative;
+    right: 20px;
+    font-size: 20px;
+  }
+  .about .container {
+    position: relative;
+    top: 160rem;
+  }
+  .about .container .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .container .main .main-txt {
+    font-size: 14px;
+  }
+  .about .container .main .main-txt p {
+    width: 300px;
+    text-align: center;
+  }
+  .portfolio .container {
+    position: relative;
+    top: 80rem;
+  }
+  .portfolio .container .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio .container .cards .card {
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  .services .container {
+    position: relative;
+    top: 200px;
+  }
+  .services .container .services-txt {
+    position: relative;
+    top: 640px;
+  }
+  .services .container .services-txt .serv-txt {
+    font-size: 50px;
+  }
+  .services .container .services-txt .don {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .services .container .serv {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 30rem;
+    left: 40px;
+    width: 30px;
+  }
+  .services .container .serv img {
+    position: relative;
+    left: 160px;
+    top: 150px;
+    display: none;
+  }
+  .services .container .parent2 {
+    position: relative;
+    top: 80px;
+  }
+  .landing-page .container .images {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
