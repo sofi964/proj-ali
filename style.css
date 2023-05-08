@@ -181,8 +181,7 @@ body {
 }
 .services .container .serv {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
 }
 .services .container .serv .parent2 {
   display: flex;
@@ -190,7 +189,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 90vh;
-  background: rgb(138, 44, 44);
 }
 .services .container .serv .parent2 .serv1 {
   width: 45vh;
